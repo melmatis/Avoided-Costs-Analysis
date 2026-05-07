@@ -1,0 +1,38 @@
+__pycache__/
+.ipynb_checkpoints/
+~$*
+
+# Large generated hourly/intermediate outputs. Keep final summary deliverables tracked.
+outputs/*.csv
+outputs/*.xlsx
+outputs/_script_check/
+outputs/_cache_*
+!outputs/summary_output.csv
+!outputs/trc_summary_comparison.csv
+!outputs/ntg_trc_sensitivity.csv
+!outputs/avoided_cost_analysis_outputs.xlsx
+
+# Superseded plot variants kept locally only.
+outputs/therm_summary_comparison_*_cop_*.png
+outputs/trc_summary_comparison_grocery.png
+outputs/trc_summary_comparison_hotel.png
+outputs/trc_summary_comparison_hsp.png
+outputs/trc_summary_comparison_mfm.png
+outputs/ntg_trc_sensitivity_grocery.png
+outputs/ntg_trc_sensitivity_hotel.png
+outputs/ntg_trc_sensitivity_hsp.png
+outputs/ntg_trc_sensitivity_mfm.png
+
+# Local/source data workbooks and model-run extracts not intended for GitHub.
+CZ*_DEERWHCalc2026.xlsx
+DEER Commercial Heat Pump Water Heater Calculator*.xlsm
+HPCapacity_QEA.xlsx
+Model Runs ES/
+qea model runs/
+claimed nunits/
+claims_by_building_cz_measapp_tsb_top10.xlsx
+NE-WaterHtg_eq-HP_COP_Central-Any-120gal-4.3_F3_Assembly.csv
+
+# Generated plot/report variants not intended for GitHub.
+outputs/qea_claims_top10_visual_comparison*.png
+outputs/sce_dr_numunits_report.md
